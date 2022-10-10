@@ -24,13 +24,15 @@ In my free time, I like to cook and I follow and watch Formula 1.
 
 ### Agile
 - a mindset
-- iterative
+- iterative, small iterations
 - effective at cathcing mistakes early
+![alt text](https://www.nvisia.com/hubfs/agile-methodology-chicago.png)
 
 ### Scrum
 - a framework
 - repeated feedback
-- scrum team members: product owner, scrum master, scrum team (3-9 people)  
+- scrum team members: product owner, scrum master, scrum team (3-9 people)
+- <a href="https://www.scrum.org/" title="Scrum website">Scrum Website</a>
 ![alt text](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/scrumorg-scrum-framework-3000.png)
 
 ### DevOps
@@ -134,4 +136,3 @@ git remote add origin "git@github.com:[username]/[repository].git"
 ```commandline
 git push -u origin main
 ```
-
