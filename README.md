@@ -15,6 +15,13 @@
   - experience
   - why this role?
 
+I'm Benedek Kovács, a junior DevOps engineer at Sparta Global. 
+I started software development in high school, as I wanted to use my quantitative skills in real life.
+For this reason I participated in startups, which made me very adaptable and provided me with years of coding experience, delving into various programming languages.
+While studying and researching for my physics degree, I have gained exceptional problem-solving and critical thinking skills, which make me an extremely valueable member of many different types of teams.
+I'm always looking to develop myself, which is why I took an online machine learning course during my 4th year of university. I'm currently working on completing a course about relational databases and SQL.
+In my free time, I like to cook and I follow and watch Formula 1.
+
 ### Agile
 - a mindset
 - iterative
@@ -91,23 +98,32 @@ print(name)
 ```
 ### Github setup
 
+Make sure to replace arguments where needed:
+
+- the main library
+- the email address
+- the public key name
+- 
+
 #### Generate SSH key
 
 -enter [main library/.ssh] and generate SSH key (private and public)
 ```commandline
 cd /c/Users/bened
 cd .ssh
-ssh-keygen -t rsa -b 4096 -C "[your_email]"
+ssh-keygen -t rsa -b 4096 -C "kovacsbenedek4000@gmail.com"
 ```
 
 ####
 
 - add SSH public key to Github account. read SSH key by copying the public key:  
-`cat [key name].pub`
+```commandline
+cat id_rsa.pub
+```
 - create repository on Github
 - create README.md file in local folder
 - prepare local folder to connect to repository and connect it to repository:
-```
+```commandline
 git init
 git add README.md
 git commit -m "first commit"
@@ -115,4 +131,7 @@ git branch -M main
 git remote add origin "git@github.com:[username]/[repository].git"
 ```
 - push local folder to repository:  
-`git push -u origin main`
+```commandline
+git push -u origin main
+```
+
