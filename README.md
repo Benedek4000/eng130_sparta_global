@@ -90,7 +90,12 @@ int - integer number
 str - string, text  
 char - single character  
 float - real number  
-boolean - true or False  
+boolean - true or False
+
+check data type using:
+```
+datatype = type(variable)
+```
 
 #### Input
 
@@ -105,7 +110,6 @@ Make sure to replace arguments where needed:
 - the main library
 - the email address
 - the public key name
-- 
 
 #### Generate SSH key
 
