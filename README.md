@@ -116,7 +116,7 @@ cd .ssh
 ssh-keygen -t rsa -b 4096 -C "kovacsbenedek4000@gmail.com"
 ```
 
-####
+#### Connect local folder to Github repository
 
 - add SSH public key to Github account. read SSH key by copying the public key:  
 ```commandline
