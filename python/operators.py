@@ -43,3 +43,23 @@ print(example_text.lower())  # converts string to lowercase
 print(example_text.upper())  # converts string to uppercase
 print(example_text.capitalize())  # capitalises first letter
 print(example_text.replace('with', 'and'))  # replaces [argument1] with [argument2]
+
+# Concatenation
+first_name = 'Benedek'
+last_name = 'Kovacs'
+print(first_name + last_name)
+print(first_name + ' ' + last_name)
+print(f'Hello {first_name} {last_name}')
+
+# Typecasting
+first_name = 'Benedek'
+last_name = 'Kovacs'
+salary = 40
+print(first_name + ' ' + last_name + ' ' + str(salary))
+print(f'Hello {first_name} {last_name}! Your salary is GBP{salary}.')
+"""
+str() - string
+int() - integer
+float() - float
+bool() - boolean
+"""
