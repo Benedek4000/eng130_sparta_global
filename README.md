@@ -152,3 +152,48 @@ push: `git push -u origin main`
 check status: `git status`  
 pull: `git pull`  
 list commands: `git`
+
+### More on data types & operators
+
+#### Comparison operators
+
+- equals: `==`  
+- greater than: `>`  
+- less than: `<`
+- not equal: `!=`
+- greater than or equals: `>=`  
+- less than or equals: `<=`
+
+#### Arithmetic operators
+
+- addition: `+`  
+- subtraction: `-`
+- multiplication: `*`  
+- division: `/`
+- exponentiation: `**`
+- floor division: `//`
+- modulus: `%`
+
+#### Examples
+
+```python
+a = 24
+b = 16
+
+#comparison
+print(a==b) #equals
+print(a>b) #greater than
+print(a<b) #less than
+print(a!=b) #not equals
+print(a>=b) #greater than or equal
+print(a<=b) #less than or equal
+
+#operators
+print(a+b) #addition
+print(a-b) #subtraction
+print(a*b) #multiplication
+print(a/b) #division
+print(a**b) #exponentiation
+print(a//b) #floor division
+print(a%b) #modulus
+```
