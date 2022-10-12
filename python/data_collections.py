@@ -29,6 +29,3 @@ print(ingredients)
 ingredients.update({'rum', 'mint', 'ice', 'sugar'})  # add sets together
 print(ingredients)
 # other methods include: difference, intersection, union, pop, remove
-
-# Dictionaries
-
